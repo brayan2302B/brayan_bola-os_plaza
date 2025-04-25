@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- METADATOS BÁSICOS DEL SITIO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Deportivo SENA</title>
+    <!-- ENLACE AL ARCHIVO CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- FAVICON (OPCIONAL) -->
+    <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+    <!-- HERO SECTION - PORTADA PRINCIPAL (AHORA ES LO PRIMERO) -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenidos al Club Deportivo SENA</h1>
+            <p>Promoviendo el deporte y la vida saludable en nuestra comunidad</p>
+        </div>
+    </section>
+
+    <!-- CABECERA DEL SITIO CON LOGO Y MENÚ DE NAVEGACIÓN -->
+    <header class="header">
+        <div class="logo-container">
+            <!-- LOGO DEL CLUB -->
+            <img src="img/logo.png" alt="Logo Club Deportivo SENA" class="logo">
+        </div>
+        <!-- MENÚ PRINCIPAL -->
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#programas">Programas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN PRINCIPAL DE CONTENIDO -->
+    <main>
+        <!-- SECCIÓN DE NOTICIAS Y NOVEDADES -->
+        <section id="noticias" class="section">
+            <h2>Últimas Noticias</h2>
+            <div class="news-container">
+                <!-- ARTÍCULO DE NOTICIA 1 -->
+                <article class="news-card">
+                    <h3>Torneo Intercentros 2023</h3>
+                    <p>Con gran orgullo anunciamos que nuestro equipo de fútbol del Club Deportivo SENA se coronó campeón absoluto del prestigioso Torneo Intercentros 2023. La emocionante final, disputada ante el Instituto Tecnológico Metropolitano, culminó con un marcador de 3-2 en tiempo extra, en un partido que mantuvo a todos los espectadores al borde de sus asientos.</p>
+                    <!-- LINK DE VIDEO 1 -->
+                    <div class="video-link">
+                        <a href="https://youtu.be/0rr6RKsuqLQ?si=gCD03klyRrWvkTMO" target="_blank">Ver video del torneo</a>
+                    </div>
+                   
+                </article>
+                
+                <!-- ARTÍCULO DE NOTICIA 2 -->
+                <article class="news-card">
+                    <h3>Nuevos horarios de natación</h3>
+                    <p>Nos complace informar que, respondiendo a la gran demanda de nuestros usuarios, a partir del 15 de enero de 2024 implementaremos nuevos horarios para nuestras clases de natación en la piscina semiolímpica del Club Deportivo SENA.</p>
+                    <!-- LINK DE VIDEO 2 -->
+                    <div class="video-link">
+                        <a href="https://youtu.be/CAMZi0ajxvw?si=RRYAbb1muFht0cuC" target="_blank">Ver video de las instalaciones</a>
+                    </div>
+                   
+                </article>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE PROGRAMAS DEPORTIVOS -->
+        <section id="programas" class="section">
+            <h2>Nuestros Programas Deportivos</h2>
+            <div class="programs-container">
+                <!-- TARJETA DE PROGRAMA 1 -->
+                <div class="program-card">
+                    <h3>Fútbol</h3>
+                    <p><strong>Público:</strong> Jóvenes de 15 a 25 años</p>
+                    <p><strong>Horario:</strong> Lunes y miércoles 4:00pm - 6:00pm</p>
+                    <p><strong>Lugar:</strong> Cancha principal</p>
+                </div>
+                
+                <!-- TARJETA DE PROGRAMA 2 -->
+                <div class="program-card">
+                    <h3>Baloncesto</h3>
+                    <p><strong>Público:</strong> Adultos 18+</p>
+                    <p><strong>Horario:</strong> Martes y jueves 5:00pm - 7:00pm</p>
+                    <p><strong>Lugar:</strong> Coliseo cubierto</p>
+                </div>
+                
+                <!-- TARJETA DE PROGRAMA 3 -->
+                <div class="program-card">
+                    <h3>Aeróbicos</h3>
+                    <p><strong>Público:</strong> Todo público</p>
+                    <p><strong>Horario:</strong> Viernes 3:00pm - 5:00pm</p>
+                    <p><strong>Lugar:</strong> Sala multiusos</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE CONTACTO -->
+        <section id="contacto" class="section contact-section">
+            <h2>Contáctanos</h2>
+            <div class="contact-container">
+                <!-- FORMULARIO DE CONTACTO -->
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn submit-btn">Enviar mensaje</button>
+                </form>
+                
+                <!-- INFORMACIÓN DE CONTACTO -->
+                <div class="contact-info">
+                    <h3>Información de contacto</h3>
+                    <p><strong>Email:</strong> clubdeportivo@sena.edu.co</p>
+                    <p><strong>Teléfono:</strong> (57) 546 1500</p>
+                    <p><strong>Dirección:</strong> Centro de Formación SENA</p>
+                    
+                    <!-- REDES SOCIALES -->
+                    <div class="social-media">
+                        <h3>Síguenos en:</h3>
+                        <a href="https://www.facebook.com/" class="social-link">Facebook</a>
+                        <a href="https://www.instagram.com/" class="social-link">Instagram</a>
+                        <a href="https://x.com/" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 Club Deportivo SENA. Todos los derechos reservados.</p>
+            <!-- ENLACES LEGALES (OPCIONALES) -->
+            <div class="footer-links">
+                <a href="#">Política de privacidad</a>
+                <a href="#">Términos de uso</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
